@@ -11,7 +11,7 @@ sudo yum install -y nodejs
 sudo npm install -g pm2
 
 # Navegar para o diretório da aplicação (Assumindo que os arquivos foram copiados para /home/ec2-user/app)
-# Se usar Git: git clone <url_repo> /home/ec2-user/app
+# Se usar Git: git clone https://github.com/edmelo/WEB2-project.git /home/ec2-user/app
 cd /home/ec2-user/app
 
 # Instalar dependências
