@@ -9,6 +9,7 @@ Uma aplicação web robusta baseada em MVC para gerenciar Usuários, Produtos e 
 | **Backend** | Node.js       | Ambiente de execução Javascript. |
 |             | Express       | Framework web rápido e minimalista. |
 |             | Sequelize     | ORM para banco de dados SQL. |
+|             | Axios         | Cliente HTTP para comunicação entre serviços. |
 | **Database**| SQLite        | Banco de dados leve e local. |
 | **Auth**    | JWT           | JSON Web Tokens para autenticação stateless. |
 |             | Bcrypt        | Hashing seguro de senhas. |

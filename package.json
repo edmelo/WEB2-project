@@ -17,13 +17,13 @@
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "bcryptjs": "^3.0.3",
     "jest": "^30.2.0",
     "jsonwebtoken": "^9.0.3",
-    "node-cache": "^5.1.2",
     "supertest": "^7.1.4"
   }
 }
