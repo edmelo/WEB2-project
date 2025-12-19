@@ -24,7 +24,7 @@ Uma aplicação web robusta baseada em MVC para gerenciar Usuários, Produtos e 
 
 ```mermaid
 graph TD
-    Client[Cliente (Browser)] -->|HTTP Request| MainService[Servidor Principal (Express :3000)]
+    Client[Cliente Browser] -->|HTTP Request| MainService[Servidor Principal (Express :3000)]
     subgraph "Main Application"
         MainService -->|Authenticates| AuthMiddleware[Middleware de Auth (JWT)]
         MainService -->|Checks| CacheLayer[Camada de Cache (Node-Cache)]
