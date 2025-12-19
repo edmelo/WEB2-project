@@ -22,7 +22,7 @@ Uma aplicação web robusta baseada em MVC para gerenciar Usuários, Produtos e 
 
 ## Arquitetura do Sistema
 
-```mermaid
+    mermaid
 graph TD
     Client[Cliente Browser] -->|HTTP Request| MainService[Servidor Principal Express :3000]
     subgraph "Main Application"
@@ -32,7 +32,7 @@ graph TD
     end
     MainService -->|Post Event| AuditService[Microsserviço de Auditoria (Express :3001)]
     AuditService -->|Writes| AuditLog[Arquivo audit.log]
-```
+
 
 ## Novas Funcionalidades
 
